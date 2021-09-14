@@ -6,22 +6,35 @@ const (
 )
 
 const (
-	ImageTypeWEBP string = "image/webp"
-	ImageTypePNG  string = "image/png"
-	ImageTypeJPG  string = "image/jpeg"
+	MimeTypeWEBP string = "image/webp"
+	MimeTypePNG  string = "image/png"
+	MimeTypeJPG  string = "image/jpeg"
+	MimeTypeBMP  string = "image/bmp"
 )
 
 const (
-	AudioTypeOGG  string = "audio/ogg"
-	AudioTypeMPEG string = "audio/mpeg"
+	MimeTypeAAC  string = "audio/aac"
+	MimeTypeOGG  string = "audio/ogg"
+	MimeTypeMPEG string = "audio/mpeg"
 )
 
 const (
-	VideoTypeMP4 string = "video/mp4"
+	MimeTypeMP4 string = "video/mp4"
 )
 
 const (
-	TextTypeCSS string = "text/css"
+	MimeTypeCSS string = "text/css"
+	MimeTypeCSV string = "text/csv"
+)
+
+const (
+	MimeTypeOctetStream string = "application/octet-stream"
+	MimeTypeBZip        string = "application/x-bzip"
+	MimeTypeBZip2       string = "application/x-bzip2"
+	MimeTypeMsWordDoc   string = "application/msword"
+	MimeTypeMsWordDocx  string = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+	MimeTypeEPub        string = "application/epub+zip"
+	MimeTypeGZip        string = "application/gzip"
 )
 
 const (
